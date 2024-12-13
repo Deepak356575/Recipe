@@ -9,15 +9,22 @@ The Recipes App is a fully functional CRUD application designed for managing rec
 
 The application provides the following functionalities:
 
-Create Recipe: Add a new recipe to the database.
+Create Recipe: Add a new recipe to the database.    ---   /api/recipes       - Create a new recipe
 
-Get All Recipes: Retrieve a list of all recipes.
+Get All Recipes: Retrieve a list of all recipes.    ---    /                 - Get all recipes
 
-Get Recipe by ID: Fetch details of a specific recipe using its unique ID.
+Get Recipe by ID: Fetch details of a specific recipe using its unique ID.  ---    /api/recipes/:id   - Get a specific recipe by ID
 
-Update Recipe: Modify details of an existing recipe by ID.
+Update Recipe: Modify details of an existing recipe by ID.   ---  /api/recipes/:id   - Update a recipe by ID
 
-Delete Recipe: Remove a recipe from the database by ID.
+Delete Recipe: Remove a recipe from the database by ID.      ---  /api/recipes/:id   - Delete a recipe by ID
+
+
+
+
+
+
+
 
 
 //Tech Stack
